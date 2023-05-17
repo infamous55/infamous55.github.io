@@ -56,8 +56,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: 'Hi there! 👋'
-    Content: "I'm infamous55, and this is where I share what I learn about various topics in software development, devops, and cybersecurity. Thanks for stopping by!"
+    Title: 'Hi there 👋'
+    Content: "Welcome to my corner of the internet! I'm infamous55, and I delve into a diverse range of subjects through my writings, which encompass software development, DevOps, and cybersecurity. Thank you for taking the time to visit!"
 
   socialIcons:
     - name: github
