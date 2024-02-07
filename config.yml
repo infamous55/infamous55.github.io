@@ -1,7 +1,8 @@
-theme: 'PaperMod'
-baseURL: http://blog.infamous55.com/
-languageCode: en-us
+theme: "PaperMod"
+baseURL: https://infamous55.com/
 title: infamous55's blog
+languageCode: en-us
+paginate: 10
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -18,11 +19,11 @@ taxonomies:
 params:
   env: production
   title: infamous55's blog
-  # description: "ExampleSite description"
+  # description: "Site description"
   # keywords: [Blog, Portfolio, PaperMod]
   author: infamous55
   # images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: '2 January, 2006'
+  DateFormat: "2 January, 2006"
   defaultTheme: dark
   disableThemeToggle: true
 
@@ -43,30 +44,26 @@ params:
   tocopen: true
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # disables highlight.js
     # disableFingerprinting: true
-    favicon: '/favicon.ico'
-    favicon16x16: '/favicon-16x16.png'
-    favicon32x32: '/favicon-32x32.png'
-    apple_touch_icon: '/apple-touch-icon.png'
-    safari_pinned_tab: '/safari-pinned-tab.svg'
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: 'infamous55'
+    text: "home"
 
-  # home-info mode
   homeInfoParams:
-    Title: 'Hi there 👋'
-    Content: "Welcome to my corner of the internet! I'm infamous55, and I delve into a diverse range of subjects through my writings, which encompass software development, DevOps, and cybersecurity. Thank you for taking the time to visit!"
+    Title: "infamous55"
+    # Content: "Content"
 
   socialIcons:
     - name: github
-      url: 'https://github.com/infamous55'
-    - name: mastodon
-      url: 'https://infosec.exchange/@alreadydeadxd/'
-    - name: other
-      title: personal
-      url: 'https://infamous55.com/'
+      url: "https://github.com/infamous55"
+    - name: email
+      url: "mailto:contact@infamous55.com"
 
   cover:
     hidden: true
@@ -82,7 +79,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ['title', 'permalink', 'summary', 'content']
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
@@ -100,15 +97,15 @@ menu:
       weigth: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#   highlight:
-#     noClasses: false
-#     anchorLineNos: true
-#     codeFences: true
-#     guessSyntax: true
-#     lineNos: false
-#     style: monokai
+pygmentsUseClasses: true
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
+    # style: github-dark
 
 # for search
 outputs:

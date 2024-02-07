@@ -1,8 +1,8 @@
 ---
-title: 'Search'
-layout: 'search'
-url: '/search/'
-# description: 'Description for Search'
-summary: 'search'
-# placeholder: 'type your query here'
+title: "Search"
+layout: "search"
+url: "/search/"
+# description: "Find something on this site."
+summary: "search"
+# placeholder: "Type your query here..."
 ---

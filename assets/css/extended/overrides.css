@@ -1,0 +1,16 @@
+.dark {
+  --theme: #010409 !important;
+  --entry: #0d1117 !important;
+  --primary: #e6edf3 !important;
+  --secondary: #848d97 !important;
+  --tertiary: #484f58 !important;
+  --content: #b1bac4 !important;
+  --code-block-bg: #0a0e12 !important;
+  --code-bg: #3a3f46 !important;
+  --border: #30363d !important;
+}
+
+.copy-code {
+  color: var(--primary) !important;
+  background-color: var(--code-bg) !important;
+}
